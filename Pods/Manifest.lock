@@ -1,0 +1,26 @@
+PODS:
+  - Masonry (1.1.0)
+  - TZImagePickerController (3.3.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Masonry
+  - TZImagePickerController
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - TZImagePickerController
+    - YYKit
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: ff8b9e6ac400318285b66ba661c625c342a084bd
+
+COCOAPODS: 1.9.3

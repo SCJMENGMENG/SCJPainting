@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA4CBCD673162266F38AB88 /* libPods-SCJPainting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF5687799C93C181EA39DF /* libPods-SCJPainting.a */; };
+		76A185A425354A1B00D32E43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185A325354A1B00D32E43 /* AppDelegate.m */; };
+		76A185AA25354A1B00D32E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185A925354A1B00D32E43 /* ViewController.m */; };
+		76A185AD25354A1B00D32E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A185AB25354A1B00D32E43 /* Main.storyboard */; };
+		76A185AF25354A1D00D32E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A185AE25354A1D00D32E43 /* Assets.xcassets */; };
+		76A185B225354A1D00D32E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A185B025354A1D00D32E43 /* LaunchScreen.storyboard */; };
+		76A185B525354A1D00D32E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185B425354A1D00D32E43 /* main.m */; };
+		76A185BE25354DE600D32E43 /* PaintingBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185BD25354DE600D32E43 /* PaintingBottomView.m */; };
+		76A185C12535554500D32E43 /* PaintingDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185C02535554500D32E43 /* PaintingDefaultView.m */; };
+		76A185C42535564100D32E43 /* CacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185C32535564100D32E43 /* CacheTool.m */; };
+		76A185C72535792100D32E43 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185C62535792100D32E43 /* DrawViewController.m */; };
+		76A185CA253579E400D32E43 /* ArtboardTopToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185C9253579E400D32E43 /* ArtboardTopToolBarView.m */; };
+		76A185CD25357B4A00D32E43 /* ArtboardBottomToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185CC25357B4A00D32E43 /* ArtboardBottomToolBarView.m */; };
+		76A185D025357BAA00D32E43 /* ColorSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185CF25357BAA00D32E43 /* ColorSelectView.m */; };
+		76A185D325357C0900D32E43 /* ColorSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185D225357C0900D32E43 /* ColorSelectModel.m */; };
+		76A185D625357C6100D32E43 /* ColorSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185D525357C6100D32E43 /* ColorSelectCell.m */; };
+		76A185D925357D9200D32E43 /* UIImage+SCJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185D825357D9200D32E43 /* UIImage+SCJ.m */; };
+		76A185DC25357EA300D32E43 /* CloseAndConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185DB25357EA300D32E43 /* CloseAndConfirmView.m */; };
+		76A185DF2535805C00D32E43 /* ArtboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185DE2535805C00D32E43 /* ArtboardView.m */; };
+		76A185E2253580A800D32E43 /* SCJBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185E1253580A800D32E43 /* SCJBezierPath.m */; };
+		76A185E52535A00D00D32E43 /* StickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185E42535A00D00D32E43 /* StickersViewController.m */; };
+		76A185E82535A0C400D32E43 /* StickersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185E72535A0C400D32E43 /* StickersView.m */; };
+		76A185EB2535A10A00D32E43 /* PasteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185EA2535A10A00D32E43 /* PasteImageView.m */; };
+		76A185EE2535A2DD00D32E43 /* PhotoSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185ED2535A2DD00D32E43 /* PhotoSelectView.m */; };
+		76A185F12535A35100D32E43 /* PhotoSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185F02535A35100D32E43 /* PhotoSelectCell.m */; };
+		76A185F42535A7AE00D32E43 /* FontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185F32535A7AE00D32E43 /* FontViewController.m */; };
+		76A185F72535A83D00D32E43 /* FontEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185F62535A83D00D32E43 /* FontEditView.m */; };
+		76A185FA2535A8DF00D32E43 /* FontColorSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185F92535A8DF00D32E43 /* FontColorSelectView.m */; };
+		76A185FD2535A99900D32E43 /* InputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A185FC2535A99900D32E43 /* InputView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DF3073F76E173150F24EC6B /* Pods-SCJPainting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCJPainting.release.xcconfig"; path = "Target Support Files/Pods-SCJPainting/Pods-SCJPainting.release.xcconfig"; sourceTree = "<group>"; };
+		76A1859F25354A1B00D32E43 /* SCJPainting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCJPainting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A185A225354A1B00D32E43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76A185A325354A1B00D32E43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76A185A825354A1B00D32E43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76A185A925354A1B00D32E43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76A185AC25354A1B00D32E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76A185AE25354A1D00D32E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76A185B125354A1D00D32E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76A185B325354A1D00D32E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A185B425354A1D00D32E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76A185BC25354DE600D32E43 /* PaintingBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaintingBottomView.h; sourceTree = "<group>"; };
+		76A185BD25354DE600D32E43 /* PaintingBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintingBottomView.m; sourceTree = "<group>"; };
+		76A185BF2535554500D32E43 /* PaintingDefaultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaintingDefaultView.h; sourceTree = "<group>"; };
+		76A185C02535554500D32E43 /* PaintingDefaultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintingDefaultView.m; sourceTree = "<group>"; };
+		76A185C22535564100D32E43 /* CacheTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheTool.h; sourceTree = "<group>"; };
+		76A185C32535564100D32E43 /* CacheTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheTool.m; sourceTree = "<group>"; };
+		76A185C52535792100D32E43 /* DrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		76A185C62535792100D32E43 /* DrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		76A185C8253579E400D32E43 /* ArtboardTopToolBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtboardTopToolBarView.h; sourceTree = "<group>"; };
+		76A185C9253579E400D32E43 /* ArtboardTopToolBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtboardTopToolBarView.m; sourceTree = "<group>"; };
+		76A185CB25357B4A00D32E43 /* ArtboardBottomToolBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtboardBottomToolBarView.h; sourceTree = "<group>"; };
+		76A185CC25357B4A00D32E43 /* ArtboardBottomToolBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtboardBottomToolBarView.m; sourceTree = "<group>"; };
+		76A185CE25357BAA00D32E43 /* ColorSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSelectView.h; sourceTree = "<group>"; };
+		76A185CF25357BAA00D32E43 /* ColorSelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSelectView.m; sourceTree = "<group>"; };
+		76A185D125357C0900D32E43 /* ColorSelectModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSelectModel.h; sourceTree = "<group>"; };
+		76A185D225357C0900D32E43 /* ColorSelectModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSelectModel.m; sourceTree = "<group>"; };
+		76A185D425357C6100D32E43 /* ColorSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSelectCell.h; sourceTree = "<group>"; };
+		76A185D525357C6100D32E43 /* ColorSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSelectCell.m; sourceTree = "<group>"; };
+		76A185D725357D9200D32E43 /* UIImage+SCJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SCJ.h"; sourceTree = "<group>"; };
+		76A185D825357D9200D32E43 /* UIImage+SCJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SCJ.m"; sourceTree = "<group>"; };
+		76A185DA25357EA300D32E43 /* CloseAndConfirmView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloseAndConfirmView.h; sourceTree = "<group>"; };
+		76A185DB25357EA300D32E43 /* CloseAndConfirmView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloseAndConfirmView.m; sourceTree = "<group>"; };
+		76A185DD2535805C00D32E43 /* ArtboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtboardView.h; sourceTree = "<group>"; };
+		76A185DE2535805C00D32E43 /* ArtboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtboardView.m; sourceTree = "<group>"; };
+		76A185E0253580A800D32E43 /* SCJBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCJBezierPath.h; sourceTree = "<group>"; };
+		76A185E1253580A800D32E43 /* SCJBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCJBezierPath.m; sourceTree = "<group>"; };
+		76A185E32535A00D00D32E43 /* StickersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickersViewController.h; sourceTree = "<group>"; };
+		76A185E42535A00D00D32E43 /* StickersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickersViewController.m; sourceTree = "<group>"; };
+		76A185E62535A0C400D32E43 /* StickersView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickersView.h; sourceTree = "<group>"; };
+		76A185E72535A0C400D32E43 /* StickersView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickersView.m; sourceTree = "<group>"; };
+		76A185E92535A10A00D32E43 /* PasteImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasteImageView.h; sourceTree = "<group>"; };
+		76A185EA2535A10A00D32E43 /* PasteImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasteImageView.m; sourceTree = "<group>"; };
+		76A185EC2535A2DD00D32E43 /* PhotoSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoSelectView.h; sourceTree = "<group>"; };
+		76A185ED2535A2DD00D32E43 /* PhotoSelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoSelectView.m; sourceTree = "<group>"; };
+		76A185EF2535A35100D32E43 /* PhotoSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoSelectCell.h; sourceTree = "<group>"; };
+		76A185F02535A35100D32E43 /* PhotoSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoSelectCell.m; sourceTree = "<group>"; };
+		76A185F22535A7AE00D32E43 /* FontViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontViewController.h; sourceTree = "<group>"; };
+		76A185F32535A7AE00D32E43 /* FontViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontViewController.m; sourceTree = "<group>"; };
+		76A185F52535A83D00D32E43 /* FontEditView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontEditView.h; sourceTree = "<group>"; };
+		76A185F62535A83D00D32E43 /* FontEditView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontEditView.m; sourceTree = "<group>"; };
+		76A185F82535A8DF00D32E43 /* FontColorSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontColorSelectView.h; sourceTree = "<group>"; };
+		76A185F92535A8DF00D32E43 /* FontColorSelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontColorSelectView.m; sourceTree = "<group>"; };
+		76A185FB2535A99900D32E43 /* InputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputView.h; sourceTree = "<group>"; };
+		76A185FC2535A99900D32E43 /* InputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputView.m; sourceTree = "<group>"; };
+		91EF5687799C93C181EA39DF /* libPods-SCJPainting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SCJPainting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9156E58F31FED62F49D46B /* Pods-SCJPainting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCJPainting.debug.xcconfig"; path = "Target Support Files/Pods-SCJPainting/Pods-SCJPainting.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A1859C25354A1B00D32E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA4CBCD673162266F38AB88 /* libPods-SCJPainting.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76A1859625354A1B00D32E43 = {
+			isa = PBXGroup;
+			children = (
+				76A185A125354A1B00D32E43 /* SCJPainting */,
+				76A185A025354A1B00D32E43 /* Products */,
+				E10016135D3ECF03D97D397B /* Pods */,
+				F3AF9883E9E948AF30DD0795 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76A185A025354A1B00D32E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A1859F25354A1B00D32E43 /* SCJPainting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A185A125354A1B00D32E43 /* SCJPainting */ = {
+			isa = PBXGroup;
+			children = (
+				76A185FE2535AB9000D32E43 /* PaintingController */,
+				76A185BB25354D7F00D32E43 /* PaintingTool */,
+				76A185A225354A1B00D32E43 /* AppDelegate.h */,
+				76A185A325354A1B00D32E43 /* AppDelegate.m */,
+				76A185A825354A1B00D32E43 /* ViewController.h */,
+				76A185A925354A1B00D32E43 /* ViewController.m */,
+				76A185AB25354A1B00D32E43 /* Main.storyboard */,
+				76A185AE25354A1D00D32E43 /* Assets.xcassets */,
+				76A185B025354A1D00D32E43 /* LaunchScreen.storyboard */,
+				76A185B325354A1D00D32E43 /* Info.plist */,
+				76A185B425354A1D00D32E43 /* main.m */,
+			);
+			path = SCJPainting;
+			sourceTree = "<group>";
+		};
+		76A185BB25354D7F00D32E43 /* PaintingTool */ = {
+			isa = PBXGroup;
+			children = (
+				76A185BC25354DE600D32E43 /* PaintingBottomView.h */,
+				76A185BD25354DE600D32E43 /* PaintingBottomView.m */,
+				76A185BF2535554500D32E43 /* PaintingDefaultView.h */,
+				76A185C02535554500D32E43 /* PaintingDefaultView.m */,
+				76A185C22535564100D32E43 /* CacheTool.h */,
+				76A185C32535564100D32E43 /* CacheTool.m */,
+				76A185C8253579E400D32E43 /* ArtboardTopToolBarView.h */,
+				76A185C9253579E400D32E43 /* ArtboardTopToolBarView.m */,
+				76A185CB25357B4A00D32E43 /* ArtboardBottomToolBarView.h */,
+				76A185CC25357B4A00D32E43 /* ArtboardBottomToolBarView.m */,
+				76A185CE25357BAA00D32E43 /* ColorSelectView.h */,
+				76A185CF25357BAA00D32E43 /* ColorSelectView.m */,
+				76A185D125357C0900D32E43 /* ColorSelectModel.h */,
+				76A185D225357C0900D32E43 /* ColorSelectModel.m */,
+				76A185D425357C6100D32E43 /* ColorSelectCell.h */,
+				76A185D525357C6100D32E43 /* ColorSelectCell.m */,
+				76A185D725357D9200D32E43 /* UIImage+SCJ.h */,
+				76A185D825357D9200D32E43 /* UIImage+SCJ.m */,
+				76A185DA25357EA300D32E43 /* CloseAndConfirmView.h */,
+				76A185DB25357EA300D32E43 /* CloseAndConfirmView.m */,
+				76A185DD2535805C00D32E43 /* ArtboardView.h */,
+				76A185DE2535805C00D32E43 /* ArtboardView.m */,
+				76A185E0253580A800D32E43 /* SCJBezierPath.h */,
+				76A185E1253580A800D32E43 /* SCJBezierPath.m */,
+				76A185E62535A0C400D32E43 /* StickersView.h */,
+				76A185E72535A0C400D32E43 /* StickersView.m */,
+				76A185E92535A10A00D32E43 /* PasteImageView.h */,
+				76A185EA2535A10A00D32E43 /* PasteImageView.m */,
+				76A185EC2535A2DD00D32E43 /* PhotoSelectView.h */,
+				76A185ED2535A2DD00D32E43 /* PhotoSelectView.m */,
+				76A185EF2535A35100D32E43 /* PhotoSelectCell.h */,
+				76A185F02535A35100D32E43 /* PhotoSelectCell.m */,
+				76A185F52535A83D00D32E43 /* FontEditView.h */,
+				76A185F62535A83D00D32E43 /* FontEditView.m */,
+				76A185F82535A8DF00D32E43 /* FontColorSelectView.h */,
+				76A185F92535A8DF00D32E43 /* FontColorSelectView.m */,
+				76A185FB2535A99900D32E43 /* InputView.h */,
+				76A185FC2535A99900D32E43 /* InputView.m */,
+			);
+			path = PaintingTool;
+			sourceTree = "<group>";
+		};
+		76A185FE2535AB9000D32E43 /* PaintingController */ = {
+			isa = PBXGroup;
+			children = (
+				76A185C52535792100D32E43 /* DrawViewController.h */,
+				76A185C62535792100D32E43 /* DrawViewController.m */,
+				76A185E32535A00D00D32E43 /* StickersViewController.h */,
+				76A185E42535A00D00D32E43 /* StickersViewController.m */,
+				76A185F22535A7AE00D32E43 /* FontViewController.h */,
+				76A185F32535A7AE00D32E43 /* FontViewController.m */,
+			);
+			path = PaintingController;
+			sourceTree = "<group>";
+		};
+		E10016135D3ECF03D97D397B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE9156E58F31FED62F49D46B /* Pods-SCJPainting.debug.xcconfig */,
+				4DF3073F76E173150F24EC6B /* Pods-SCJPainting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3AF9883E9E948AF30DD0795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91EF5687799C93C181EA39DF /* libPods-SCJPainting.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A1859E25354A1B00D32E43 /* SCJPainting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A185B825354A1D00D32E43 /* Build configuration list for PBXNativeTarget "SCJPainting" */;
+			buildPhases = (
+				D20156BF0002F4F7AEBAD4A2 /* [CP] Check Pods Manifest.lock */,
+				76A1859B25354A1B00D32E43 /* Sources */,
+				76A1859C25354A1B00D32E43 /* Frameworks */,
+				76A1859D25354A1B00D32E43 /* Resources */,
+				F5584E69F080EE12A7E720AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCJPainting;
+			productName = SCJPainting;
+			productReference = 76A1859F25354A1B00D32E43 /* SCJPainting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A1859725354A1B00D32E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = scj;
+				TargetAttributes = {
+					76A1859E25354A1B00D32E43 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 76A1859A25354A1B00D32E43 /* Build configuration list for PBXProject "SCJPainting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76A1859625354A1B00D32E43;
+			productRefGroup = 76A185A025354A1B00D32E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A1859E25354A1B00D32E43 /* SCJPainting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A1859D25354A1B00D32E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A185B225354A1D00D32E43 /* LaunchScreen.storyboard in Resources */,
+				76A185AF25354A1D00D32E43 /* Assets.xcassets in Resources */,
+				76A185AD25354A1B00D32E43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D20156BF0002F4F7AEBAD4A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SCJPainting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5584E69F080EE12A7E720AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SCJPainting/Pods-SCJPainting-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SCJPainting/Pods-SCJPainting-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SCJPainting/Pods-SCJPainting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A1859B25354A1B00D32E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A185F12535A35100D32E43 /* PhotoSelectCell.m in Sources */,
+				76A185FA2535A8DF00D32E43 /* FontColorSelectView.m in Sources */,
+				76A185FD2535A99900D32E43 /* InputView.m in Sources */,
+				76A185D925357D9200D32E43 /* UIImage+SCJ.m in Sources */,
+				76A185AA25354A1B00D32E43 /* ViewController.m in Sources */,
+				76A185F42535A7AE00D32E43 /* FontViewController.m in Sources */,
+				76A185DF2535805C00D32E43 /* ArtboardView.m in Sources */,
+				76A185BE25354DE600D32E43 /* PaintingBottomView.m in Sources */,
+				76A185D025357BAA00D32E43 /* ColorSelectView.m in Sources */,
+				76A185DC25357EA300D32E43 /* CloseAndConfirmView.m in Sources */,
+				76A185F72535A83D00D32E43 /* FontEditView.m in Sources */,
+				76A185C72535792100D32E43 /* DrawViewController.m in Sources */,
+				76A185CA253579E400D32E43 /* ArtboardTopToolBarView.m in Sources */,
+				76A185EB2535A10A00D32E43 /* PasteImageView.m in Sources */,
+				76A185EE2535A2DD00D32E43 /* PhotoSelectView.m in Sources */,
+				76A185E2253580A800D32E43 /* SCJBezierPath.m in Sources */,
+				76A185A425354A1B00D32E43 /* AppDelegate.m in Sources */,
+				76A185C12535554500D32E43 /* PaintingDefaultView.m in Sources */,
+				76A185D325357C0900D32E43 /* ColorSelectModel.m in Sources */,
+				76A185E82535A0C400D32E43 /* StickersView.m in Sources */,
+				76A185C42535564100D32E43 /* CacheTool.m in Sources */,
+				76A185B525354A1D00D32E43 /* main.m in Sources */,
+				76A185E52535A00D00D32E43 /* StickersViewController.m in Sources */,
+				76A185CD25357B4A00D32E43 /* ArtboardBottomToolBarView.m in Sources */,
+				76A185D625357C6100D32E43 /* ColorSelectCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76A185AB25354A1B00D32E43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A185AC25354A1B00D32E43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76A185B025354A1D00D32E43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A185B125354A1D00D32E43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A185B625354A1D00D32E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76A185B725354A1D00D32E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A185B925354A1D00D32E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9156E58F31FED62F49D46B /* Pods-SCJPainting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z6R78X8FT;
+				INFOPLIST_FILE = SCJPainting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reworld.SCJPainting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76A185BA25354A1D00D32E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF3073F76E173150F24EC6B /* Pods-SCJPainting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z6R78X8FT;
+				INFOPLIST_FILE = SCJPainting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reworld.SCJPainting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A1859A25354A1B00D32E43 /* Build configuration list for PBXProject "SCJPainting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A185B625354A1D00D32E43 /* Debug */,
+				76A185B725354A1D00D32E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A185B825354A1D00D32E43 /* Build configuration list for PBXNativeTarget "SCJPainting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A185B925354A1D00D32E43 /* Debug */,
+				76A185BA25354A1D00D32E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A1859725354A1B00D32E43 /* Project object */;
+}
